@@ -1,0 +1,26 @@
+Injesting JS - Specifying the JS file in the html file using script tag
+Why JS is called a scripting language - Because it is executed line by line
+Why it is better to keep the script tag after body? - Because we want to execute the script after all the elements are loaded in DOM
+Previously JS runs only on the browser[restricted to browser]. to solve this problem, Node.JS was introduced to run it on local machines.
+Node JS: run time environment.
+
+Node --version to check what version of node is installed in the machine by using command prompt
+
+Running JS in local machine without a browser:
+C:\Users\Rakesh>node
+Welcome to Node.js v22.14.0.
+Type ".help" for more information.
+> console.log("hello")
+hello
+undefined
+> alert('Yes')
+Uncaught ReferenceError: alert is not defined
+> console.warn('it is a warning!')
+it is a warning!
+undefined
+> var x = 10; console.log(x)
+10
+undefined
+>
+
+Running JS code in VS terminal
