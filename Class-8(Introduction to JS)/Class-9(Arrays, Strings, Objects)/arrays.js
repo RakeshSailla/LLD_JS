@@ -29,3 +29,15 @@ console.log(cars.includes("BMW"))
 
 //indexOf
 console.log(cars.indexOf("Urus"))
+
+
+//slice - doesn't modify the original array
+const fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+const sliced = fruits.slice(3, 4);
+console.log(sliced);
+
+
+//splice - delete the items in array, so it does modifies the original array
+const spliced = fruits.splice(2, 1)
+console.log(spliced)
+console.log(fruits)
